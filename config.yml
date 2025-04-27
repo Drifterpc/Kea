@@ -1,14 +1,17 @@
 # env: the system of your PC (e.g. windows, macOS, Linux)
-env: Linux
+env: windows
 
 # system: the target harmonyOS
-system: android
-device: emulator-5554
-app_path: example/omninotes.apk
+system: harmonyOS
+device: 4ABVB24930003947
+#device: 23E0224307001843
+
+package: com.dragon.read.next
+keep_app: True
 policy: random
 count: 100
-properties: 
-  - example/example_property.py
+properties:
+  - properties/Harmony/tomato_novel.py
 
 # system: harmonyOS
 # device: 127.0.0.1:5555
